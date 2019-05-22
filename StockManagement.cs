@@ -8,6 +8,11 @@ using System.Diagnostics;
 namespace Main.yonor
 {
 
+    /// <summary>
+    /// The restauran Stock is managed by this class,
+    /// Items will be updated by their setters.
+    /// </summary>
+
     public sealed class StockManagement
     {
         private StockManagement()
