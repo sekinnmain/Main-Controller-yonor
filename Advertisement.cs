@@ -18,7 +18,7 @@ namespace Main.yonor
             //
             // TODO: Add constructor logic here
             //
-            Active = false;
+            Active.set(false);
         }
         public string CompanyName { get; set; }
         public string ImgPath { get; set; }
