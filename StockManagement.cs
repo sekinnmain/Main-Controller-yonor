@@ -32,7 +32,7 @@ namespace Main.yonor
                 return instance;
             }
         }
-        public int burgetStock { get; set; }
+        public int burgerStock { get; set; }
         public int steakStock { get; set; }
         public int pulletStock { get; set; }
         public int sodaStock { get; set; }
@@ -41,7 +41,7 @@ namespace Main.yonor
 
         public int remainingDishes()
         {
-            return (burgetStock + steakStock + pulletStock + sodaStock + waterStock + colaStock);
+            return (burgerStock + steakStock + pulletStock + sodaStock + waterStock + colaStock);
         }
 
 
